@@ -1,0 +1,7 @@
+
+*.html
+*.png
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/uiDesigner.xml
+target/test-classes/TodoMvcTest.class
