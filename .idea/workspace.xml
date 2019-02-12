@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa4d7f6-c5fe-4776-95f1-acefaa1792d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TodoMvcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TodoMvcTest_withCSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TodoMvcTest_withSelenide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TodoMvcTest_withXPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TodoMvcTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,13 +27,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="754" />
+          <entry key="java" value="1226" />
           <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="754" />
+          <entry key="JAVA" value="1226" />
           <entry key="XML" value="18" />
         </counts>
       </usages-collector>
@@ -41,13 +42,13 @@
           <entry key="LICENSE" value="1" />
           <entry key="class" value="3" />
           <entry key="gitattributes" value="1" />
-          <entry key="java" value="1" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="5" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -55,14 +56,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TodoMvcTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TodoMvcTest_withSelenide.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+            <state relative-caret-position="572">
+              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TodoMvcTest_withCSS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TodoMvcTest_withXPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -97,6 +119,8 @@
         <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TodoMvcTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TodoMvcTest_withSelenide.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TodoMvcTest_withCSS.java" />
       </list>
     </option>
   </component>
@@ -151,6 +175,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Test_automation_selenide_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test_automation_selenide_course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -158,7 +189,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549899708614" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549966187283" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RunDashboard">
@@ -174,19 +205,46 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="TodoMvcTest.completesTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoMvcTest_withCSS.completesTask_Lesson2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test_automation_selenide_course" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TodoMvcTest" />
-      <option name="METHOD_NAME" value="completesTask" />
+      <option name="MAIN_CLASS_NAME" value="TodoMvcTest_withCSS" />
+      <option name="METHOD_NAME" value="completesTask_Lesson2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TodoMvcTest_withSelenide.completesTask_Lesson1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test_automation_selenide_course" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TodoMvcTest_withSelenide" />
+      <option name="METHOD_NAME" value="completesTask_Lesson1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoMvcTest_withSelenide.completesTask_Lesson2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test_automation_selenide_course" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TodoMvcTest_withSelenide" />
+      <option name="METHOD_NAME" value="completesTask_Lesson2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TodoMvcTest_withSelenide.completesTask_Lesson1" />
+      <item itemvalue="JUnit.TodoMvcTest_withSelenide.completesTask_Lesson2" />
+      <item itemvalue="JUnit.TodoMvcTest_withCSS.completesTask_Lesson2" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TodoMvcTest.completesTask" />
+        <item itemvalue="JUnit.TodoMvcTest_withSelenide.completesTask_Lesson1" />
+        <item itemvalue="JUnit.TodoMvcTest_withCSS.completesTask_Lesson2" />
+        <item itemvalue="JUnit.TodoMvcTest_withSelenide.completesTask_Lesson2" />
       </list>
     </recent_temporary>
   </component>
@@ -204,35 +262,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TodoMvcTest_completesTask - 2019.02.11 at 15h 46m 11s.xml">
-      <configuration name="TodoMvcTest.completesTask" configurationId="JUnit" />
+    <history-entry file="TodoMvcTest_completesTask_Lesson2 - 2019.02.12 at 11h 03m 54s.xml">
+      <configuration name="TodoMvcTest.completesTask_Lesson2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_completesTask - 2019.02.11 at 15h 46m 51s.xml">
-      <configuration name="TodoMvcTest.completesTask" configurationId="JUnit" />
+    <history-entry file="TodoMvcTest_completesTask_Lesson2 - 2019.02.12 at 11h 04m 10s.xml">
+      <configuration name="TodoMvcTest.completesTask_Lesson2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_completesTask - 2019.02.11 at 15h 47m 44s.xml">
-      <configuration name="TodoMvcTest.completesTask" configurationId="JUnit" />
+    <history-entry file="TodoMvcTest_completesTask_Lesson2 - 2019.02.12 at 11h 05m 32s.xml">
+      <configuration name="TodoMvcTest.completesTask_Lesson2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_completesTask - 2019.02.11 at 15h 51m 40s.xml">
-      <configuration name="TodoMvcTest.completesTask" configurationId="JUnit" />
+    <history-entry file="TodoMvcTest_completesTask_Lesson2 - 2019.02.12 at 11h 07m 34s.xml">
+      <configuration name="TodoMvcTest.completesTask_Lesson2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_completesTask - 2019.02.11 at 15h 52m 32s.xml">
-      <configuration name="TodoMvcTest.completesTask" configurationId="JUnit" />
+    <history-entry file="TodoMvcTest_completesTask_Lesson2 - 2019.02.12 at 11h 28m 58s.xml">
+      <configuration name="TodoMvcTest.completesTask_Lesson2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_completesTask - 2019.02.11 at 15h 58m 40s.xml">
-      <configuration name="TodoMvcTest.completesTask" configurationId="JUnit" />
+    <history-entry file="TodoMvcTest_completesTask_Lesson2 - 2019.02.12 at 11h 32m 22s.xml">
+      <configuration name="TodoMvcTest.completesTask_Lesson2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_completesTask - 2019.02.11 at 15h 59m 08s.xml">
-      <configuration name="TodoMvcTest.completesTask" configurationId="JUnit" />
+    <history-entry file="TodoMvcTest_completesTask_Lesson2 - 2019.02.12 at 11h 55m 20s.xml">
+      <configuration name="TodoMvcTest.completesTask_Lesson2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_completesTask - 2019.02.11 at 16h 09m 57s.xml">
-      <configuration name="TodoMvcTest.completesTask" configurationId="JUnit" />
+    <history-entry file="TodoMvcTest_completesTask_Lesson2 - 2019.02.12 at 11h 55m 31s.xml">
+      <configuration name="TodoMvcTest.completesTask_Lesson2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_completesTask - 2019.02.11 at 16h 10m 11s.xml">
-      <configuration name="TodoMvcTest.completesTask" configurationId="JUnit" />
+    <history-entry file="TodoMvcTest_withCSS_completesTask_Lesson2 - 2019.02.12 at 12h 04m 35s.xml">
+      <configuration name="TodoMvcTest_withCSS.completesTask_Lesson2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_completesTask - 2019.02.11 at 17h 40m 32s.xml">
-      <configuration name="TodoMvcTest.completesTask" configurationId="JUnit" />
+    <history-entry file="TodoMvcTest_withSelenide_completesTask_Lesson1 - 2019.02.12 at 12h 04m 48s.xml">
+      <configuration name="TodoMvcTest_withSelenide.completesTask_Lesson1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -244,15 +302,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24977934" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22859664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,13 +363,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TodoMvcTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TodoMvcTest_withSelenide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="572">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TodoMvcTest_withCSS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TodoMvcTest_withXPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>

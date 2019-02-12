@@ -1,17 +1,18 @@
-import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.Selectors.*;
-import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.CollectionCondition.*;
-import  com.codeborne.selenide.Configuration;
-
+import com.codeborne.selenide.Configuration;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 
-public class TodoMvcTest {
+import static com.codeborne.selenide.CollectionCondition.exactTexts;
+import static com.codeborne.selenide.CollectionCondition.size;
+import static com.codeborne.selenide.Condition.*;
+import static com.codeborne.selenide.Selenide.*;
+
+public class TodoMvcTest_withSelenide {
 
 
     @Test
-    public void completesTask() {
+    @DisplayName("Demo of Selenide")
+    public void completesTask_Lesson1() {
         Configuration.timeout = 6000;
         Configuration.browser = "firefox";
         Configuration.holdBrowserOpen = false;
@@ -42,9 +43,5 @@ public class TodoMvcTest {
 
         // active tasks should be a, c
         $$("#todo-list>li").excludeWith(cssClass("completed")).shouldHave(exactTexts("a", "c"));
-
-
     }
-
-
 }
