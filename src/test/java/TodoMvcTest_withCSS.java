@@ -4,7 +4,8 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.CollectionCondition.exactTexts;
 import static com.codeborne.selenide.CollectionCondition.size;
-import static com.codeborne.selenide.Condition.*;
+import static com.codeborne.selenide.Condition.exactText;
+import static com.codeborne.selenide.Condition.selected;
 import static com.codeborne.selenide.Selenide.*;
 
 public class TodoMvcTest_withCSS {
@@ -40,5 +41,7 @@ public class TodoMvcTest_withCSS {
         // active tasks should be a, c
         $("#todo-list>li:nth-of-type(1) .toggle").shouldNotBe(selected);
         $("#todo-list>li:nth-of-type(3) .toggle").shouldNotBe(selected);
+        // or
+        // $$("#todo-list li:not(.completed)").shouldHave(exactTexts("a", "c"));
     }
 }
