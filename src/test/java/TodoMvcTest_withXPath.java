@@ -3,8 +3,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.CollectionCondition.exactTexts;
-import static com.codeborne.selenide.CollectionCondition.size;
-import static com.codeborne.selenide.Condition.*;
+import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class TodoMvcTest_withXPath {
@@ -32,7 +31,6 @@ public class TodoMvcTest_withXPath {
 
         // active tasks should be a, c
         $$x("//li[@class='ember-view']").shouldHave(exactTexts("a", "c"));
-
 
 
     }

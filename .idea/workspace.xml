@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa4d7f6-c5fe-4776-95f1-acefaa1792d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/TodoMvcTest_withCSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TodoMvcTest_withCSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EndToEndtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TodoMvcTest_withXPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TodoMvcTest_withXPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TodoMvcTest_withXPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TodoMvcTest_withXPath.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,28 +25,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1544" />
+          <entry key="java" value="3203" />
           <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1544" />
+          <entry key="JAVA" value="3203" />
           <entry key="XML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="1" />
-          <entry key="class" value="3" />
+          <entry key="class" value="10" />
           <entry key="gitattributes" value="1" />
-          <entry key="java" value="5" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="5" />
+          <entry key="CLASS" value="10" />
+          <entry key="JAVA" value="7" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -55,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TodoMvcTest_withSelenide.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="-54">
+              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,11 +78,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TodoMvcTest_withXPath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="33" column="74" lean-forward="true" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
+            <state relative-caret-position="90">
+              <caret line="6" column="48" lean-forward="true" selection-end-line="6" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EndToEndtest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,6 +135,9 @@
         <option value="$PROJECT_DIR$/src/test/java/TodoMvcTest_withSelenide.java" />
         <option value="$PROJECT_DIR$/src/test/java/TodoMvcTest_withCSS.java" />
         <option value="$PROJECT_DIR$/src/test/java/TodoMvcTest_withXPath.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CustomConditions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TodoMVC_POC.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EndToEndtest.java" />
       </list>
     </option>
   </component>
@@ -143,10 +160,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="548" />
-    <option name="y" value="123" />
-    <option name="width" value="1175" />
-    <option name="height" value="812" />
+    <option name="x" value="613" />
+    <option name="y" value="23" />
+    <option name="width" value="1170" />
+    <option name="height" value="865" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -189,7 +206,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549970344310" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550149745990" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RunDashboard">
@@ -204,7 +221,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TodoMvcTest_withXPath.completesTask_Lesson3">
+  <component name="RunManager" selected="JUnit.EndToEndTest.addItems">
+    <configuration name="EndToEndTest.addItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test_automation_selenide_course" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EndToEndTest" />
+      <option name="METHOD_NAME" value="addItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EndToEndTest.addItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test_automation_selenide_course" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EndToEndTest" />
+      <option name="METHOD_NAME" value="addItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TodoMvcTest_withCSS.completesTask_Lesson2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test_automation_selenide_course" />
       <option name="PACKAGE_NAME" value="" />
@@ -225,16 +262,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoMvcTest_withSelenide.completesTask_Lesson2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test_automation_selenide_course" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TodoMvcTest_withSelenide" />
-      <option name="METHOD_NAME" value="completesTask_Lesson2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TodoMvcTest_withXPath.completesTask_Lesson3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test_automation_selenide_course" />
       <option name="PACKAGE_NAME" value="" />
@@ -247,16 +274,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TodoMvcTest_withSelenide.completesTask_Lesson1" />
-      <item itemvalue="JUnit.TodoMvcTest_withSelenide.completesTask_Lesson2" />
       <item itemvalue="JUnit.TodoMvcTest_withCSS.completesTask_Lesson2" />
       <item itemvalue="JUnit.TodoMvcTest_withXPath.completesTask_Lesson3" />
+      <item itemvalue="JUnit.EndToEndTest.addItems" />
+      <item itemvalue="JUnit.EndToEndTest.addItem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EndToEndTest.addItems" />
+        <item itemvalue="JUnit.EndToEndTest.addItem" />
         <item itemvalue="JUnit.TodoMvcTest_withXPath.completesTask_Lesson3" />
         <item itemvalue="JUnit.TodoMvcTest_withSelenide.completesTask_Lesson1" />
         <item itemvalue="JUnit.TodoMvcTest_withCSS.completesTask_Lesson2" />
-        <item itemvalue="JUnit.TodoMvcTest_withSelenide.completesTask_Lesson2" />
       </list>
     </recent_temporary>
   </component>
@@ -274,39 +303,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TodoMvcTest_completesTask_Lesson2 - 2019.02.12 at 11h 55m 31s.xml">
-      <configuration name="TodoMvcTest.completesTask_Lesson2" configurationId="JUnit" />
+    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 20m 03s.xml">
+      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_withCSS_completesTask_Lesson2 - 2019.02.12 at 12h 04m 35s.xml">
-      <configuration name="TodoMvcTest_withCSS.completesTask_Lesson2" configurationId="JUnit" />
+    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 20m 39s.xml">
+      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_withSelenide_completesTask_Lesson1 - 2019.02.12 at 12h 04m 48s.xml">
-      <configuration name="TodoMvcTest_withSelenide.completesTask_Lesson1" configurationId="JUnit" />
+    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 21m 27s.xml">
+      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_withXPath_completesTask_Lesson3 - 2019.02.12 at 13h 00m 54s.xml">
-      <configuration name="TodoMvcTest_withXPath.completesTask_Lesson3" configurationId="JUnit" />
+    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 22m 29s.xml">
+      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_withXPath_completesTask_Lesson3 - 2019.02.12 at 13h 01m 14s.xml">
-      <configuration name="TodoMvcTest_withXPath.completesTask_Lesson3" configurationId="JUnit" />
+    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 23m 52s.xml">
+      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_withXPath_completesTask_Lesson3 - 2019.02.12 at 13h 01m 24s.xml">
-      <configuration name="TodoMvcTest_withXPath.completesTask_Lesson3" configurationId="JUnit" />
+    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 25m 19s.xml">
+      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_withXPath_completesTask_Lesson3 - 2019.02.12 at 13h 06m 53s.xml">
-      <configuration name="TodoMvcTest_withXPath.completesTask_Lesson3" configurationId="JUnit" />
+    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 27m 37s.xml">
+      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_withXPath_completesTask_Lesson3 - 2019.02.12 at 13h 07m 26s.xml">
-      <configuration name="TodoMvcTest_withXPath.completesTask_Lesson3" configurationId="JUnit" />
+    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 28m 55s.xml">
+      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_withXPath_completesTask_Lesson3 - 2019.02.12 at 13h 10m 58s.xml">
-      <configuration name="TodoMvcTest_withXPath.completesTask_Lesson3" configurationId="JUnit" />
+    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 30m 32s.xml">
+      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TodoMvcTest_withXPath_completesTask_Lesson3 - 2019.02.12 at 13h 11m 26s.xml">
-      <configuration name="TodoMvcTest_withXPath.completesTask_Lesson3" configurationId="JUnit" />
+    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 53m 35s.xml">
+      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="548" y="123" width="1175" height="812" extended-state="0" />
+    <frame x="613" y="23" width="1170" height="865" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -314,16 +343,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22859664" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22960994" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32916668" />
+      <window_info anchor="bottom" id="Messages" weight="0.32858992" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30659768" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39974126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -354,16 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.1.0/selenide-5.1.0.jar!/com/codeborne/selenide/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#2948#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.1.0/selenide-5.1.0.jar!/com/codeborne/selenide/ElementsCollection.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -375,10 +394,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TodoMvcTest_withSelenide.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.1.0/selenide-5.1.0.jar!/com/codeborne/selenide/SelenideElement.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="294">
+          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.1.0/selenide-5.1.0.jar!/com/codeborne/selenide/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.1.0/selenide-5.1.0.jar!/com/codeborne/selenide/SelenideConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="20" column="94" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="94" />
+          <folding>
+            <element signature="e#9036#9037#0" expanded="true" />
+            <element signature="e#9080#9081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.1.0/selenide-5.1.0.jar!/com/codeborne/selenide/impl/SelenideElementProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CustomConditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -397,8 +448,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TodoMvcTest_withXPath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="33" column="74" lean-forward="true" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
+        <state relative-caret-position="90">
+          <caret line="6" column="48" lean-forward="true" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TodoMvcTest_withSelenide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="304" selection-start-line="304" selection-end-line="304" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EndToEndtest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
