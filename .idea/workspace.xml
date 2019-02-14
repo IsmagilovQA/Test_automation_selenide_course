@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa4d7f6-c5fe-4776-95f1-acefaa1792d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/EndToEndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EndToEndTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TodoMVC_POC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EndToEndTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EndToEndTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,13 +27,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3679" />
+          <entry key="java" value="4099" />
           <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3679" />
+          <entry key="JAVA" value="4099" />
           <entry key="XML" value="18" />
         </counts>
       </usages-collector>
@@ -55,29 +56,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/EndToEndTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+            <state relative-caret-position="408">
+              <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
                 <element signature="e#2320#2321#0" expanded="true" />
                 <element signature="e#2358#2359#0" expanded="true" />
                 <element signature="e#2408#2409#0" expanded="true" />
                 <element signature="e#2481#2482#0" expanded="true" />
-                <element signature="e#2476#2477#0" expanded="true" />
-                <element signature="e#2534#2535#0" expanded="true" />
+                <element signature="e#2682#2683#0" expanded="true" />
+                <element signature="e#2726#2727#0" expanded="true" />
+                <element signature="e#2764#2765#0" expanded="true" />
+                <element signature="e#2793#2794#0" expanded="true" />
+                <element signature="e#2819#2820#0" expanded="true" />
+                <element signature="e#2835#2836#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +128,8 @@
         <option value="$PROJECT_DIR$/src/test/java/CustomConditions.java" />
         <option value="$PROJECT_DIR$/src/test/java/TodoMVC_POC.java" />
         <option value="$PROJECT_DIR$/src/test/java/EndToEndtest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/EndToEndTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EndToEndTest.java" />
       </list>
     </option>
   </component>
@@ -191,7 +198,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550160297562" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550164311258" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
@@ -236,6 +243,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EndToEndTest.filtersTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test_automation_selenide_course" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EndToEndTest" />
+      <option name="METHOD_NAME" value="filtersTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EndToEndTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test_automation_selenide_course" />
       <option name="PACKAGE_NAME" value="" />
@@ -246,30 +263,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoMvcTest_withXPath.completesTask_Lesson3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test_automation_selenide_course" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TodoMvcTest_withXPath" />
-      <option name="METHOD_NAME" value="completesTask_Lesson3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.TodoMvcTest_withXPath.completesTask_Lesson3" />
       <item itemvalue="JUnit.EndToEndTest.addItems" />
       <item itemvalue="JUnit.EndToEndTest.addItem" />
       <item itemvalue="JUnit.EndToEndTest.test" />
       <item itemvalue="JUnit.EndToEndTest" />
+      <item itemvalue="JUnit.EndToEndTest.filtersTask" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.EndToEndTest" />
+        <item itemvalue="JUnit.EndToEndTest.filtersTask" />
         <item itemvalue="JUnit.EndToEndTest.test" />
         <item itemvalue="JUnit.EndToEndTest.addItems" />
         <item itemvalue="JUnit.EndToEndTest.addItem" />
-        <item itemvalue="JUnit.TodoMvcTest_withXPath.completesTask_Lesson3" />
       </list>
     </recent_temporary>
   </component>
@@ -287,34 +294,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 27m 37s.xml">
-      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 28m 55s.xml">
-      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 30m 32s.xml">
-      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 53m 35s.xml">
-      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EndToEndTest_test - 2019.02.14 at 17h 55m 18s.xml">
-      <configuration name="EndToEndTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EndToEndTest_test - 2019.02.14 at 17h 55m 54s.xml">
-      <configuration name="EndToEndTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EndToEndTest_test - 2019.02.14 at 17h 58m 04s.xml">
-      <configuration name="EndToEndTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EndToEndTest - 2019.02.14 at 17h 58m 31s.xml">
+    <history-entry file="EndToEndTest - 2019.02.14 at 18h 32m 15s.xml">
       <configuration name="EndToEndTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EndToEndTest - 2019.02.14 at 17h 58m 45s.xml">
+    <history-entry file="EndToEndTest - 2019.02.14 at 18h 34m 03s.xml">
       <configuration name="EndToEndTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EndToEndTest - 2019.02.14 at 17h 59m 24s.xml">
+    <history-entry file="EndToEndTest - 2019.02.14 at 18h 34m 38s.xml">
+      <configuration name="EndToEndTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EndToEndTest - 2019.02.14 at 18h 37m 07s.xml">
+      <configuration name="EndToEndTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EndToEndTest - 2019.02.14 at 18h 38m 26s.xml">
+      <configuration name="EndToEndTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EndToEndTest - 2019.02.14 at 18h 39m 16s.xml">
+      <configuration name="EndToEndTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EndToEndTest - 2019.02.14 at 18h 39m 50s.xml">
+      <configuration name="EndToEndTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EndToEndTest - 2019.02.14 at 18h 41m 35s.xml">
+      <configuration name="EndToEndTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EndToEndTest - 2019.02.14 at 18h 42m 02s.xml">
+      <configuration name="EndToEndTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EndToEndTest - 2019.02.14 at 18h 42m 59s.xml">
       <configuration name="EndToEndTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -335,7 +342,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32858992" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30659768" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30659768" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39974126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,28 +478,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EndToEndTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2320#2321#0" expanded="true" />
-            <element signature="e#2358#2359#0" expanded="true" />
-            <element signature="e#2408#2409#0" expanded="true" />
-            <element signature="e#2481#2482#0" expanded="true" />
-            <element signature="e#2476#2477#0" expanded="true" />
-            <element signature="e#2534#2535#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/EndToEndTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        <state relative-caret-position="408">
+          <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#2320#2321#0" expanded="true" />
+            <element signature="e#2358#2359#0" expanded="true" />
+            <element signature="e#2408#2409#0" expanded="true" />
+            <element signature="e#2481#2482#0" expanded="true" />
+            <element signature="e#2682#2683#0" expanded="true" />
+            <element signature="e#2726#2727#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+            <element signature="e#2793#2794#0" expanded="true" />
+            <element signature="e#2819#2820#0" expanded="true" />
+            <element signature="e#2835#2836#0" expanded="true" />
           </folding>
         </state>
       </provider>

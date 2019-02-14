@@ -1,9 +1,8 @@
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.ElementsCollection;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.CollectionCondition.exactTexts;
 import static com.codeborne.selenide.Condition.cssClass;
@@ -26,10 +25,14 @@ public class EndToEndTest extends BaseTest {
     - delete "c" ("a" should be in the list).
      */
 
-    @Test
-    public void test() {
+    @BeforeEach
+    public void openSite() {
+        open("/");
+    }
 
-        openTodoMvc();
+
+    @Test
+    public void crud() {
 
         add("a", "b", "c");
         assertActiveTasks("a", "b", "c");
@@ -45,6 +48,25 @@ public class EndToEndTest extends BaseTest {
         delete("c");
         assertActiveTasks("a");
     }
+
+
+    @Test
+    public void filtersTask() {
+
+        add("a", "b", "c");
+        assertActiveTasks("a", "b", "c");
+
+        toggle("b");
+        assertCompletedTasks("b");
+
+        filterActive();
+        assertActiveTasks("a", "c");
+
+        filterCompleted();
+        assertCompletedTasks("b");
+    }
+
+
 
 
 
@@ -79,7 +101,7 @@ public class EndToEndTest extends BaseTest {
         tasks.filterBy(cssClass("completed")).shouldHave(exactTexts(texts));
     }
 
-    public void clearCompleted() {
+    private void clearCompleted() {
         $("#clear-completed").click();
     }
 
@@ -87,7 +109,17 @@ public class EndToEndTest extends BaseTest {
         tasks.findBy(exactText(taskName)).find(".toggle").click();
     }
 
-    private void openTodoMvc() {
-        open("http://todomvc4tasj.herokuapp.com/");
+
+
+    private void filterActive(){
+        $("[href$='active']").click();
+    }
+
+    private void filterCompleted(){
+        $("href$='completed']").click();
+    }
+
+    private void filterAll() {
+        $("[href='\\#\\/']").click();
     }
 }
