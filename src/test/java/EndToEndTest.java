@@ -25,41 +25,47 @@ public class EndToEndTest {
 
     @Test
     public void test() {
-        open("http://todomvc4tasj.herokuapp.com/");
 
-        // Add
+        openTodoMvc();
+
         add("a", "b", "c");
-        $$("#todo-list>li").shouldHave(exactTexts("a", "b", "c"));
+        assertActiveTasks("a", "b", "c");
 
-        // Edit
-        $$("#todo-list>li").findBy(exactText("b")).doubleClick();
-        $$("#todo-list>li").findBy(cssClass("editing")).find(".edit")
-                .val("b edited").pressEnter();
+        edit("b", "b edited");
 
-        // Complete & Clear
-        $$("#todo-list>li").findBy(exactText("b edited")).find(".toggle").click();
-        $("#clear-completed").click();
-        $$("#todo-list>li").shouldHave(exactTexts("a", "c"));
+        toggle("b edited");
+        clearCompleted();
+        assertActiveTasks("a", "c");
 
-        // Cancel Edit
-        $$("#todo-list>li").findBy(exactText("c")).doubleClick();
-        $$("#todo-list>li").findBy(cssClass("editing")).find(".edit")
-                .val("to be canceled").pressEscape();
+        cancelEdit("c", "to be canceled");
 
-        // Delete
-        $$("#todo-list>li").findBy(exactText("c")).hover().find(".destroy").click();
-        $$("#todo-list>li").shouldHave(exactTexts("a"));
+        delete("c");
+        assertActiveTasks("a");
     }
 
 
 
     // String... it's the same as String[] (the method can take multple Strings as its argument)
-
-
     private void add(String... taskName) {
         for (String text : taskName) {
             $("#new-todo").val(text).pressEnter();
         }
+    }
+
+    private void delete(String taskName) {
+        $$("#todo-list>li").findBy(exactText(taskName)).hover().find(".destroy").click();
+    }
+
+    private void edit(String taskName, String editedTask) {
+        $$("#todo-list>li").findBy(exactText(taskName)).doubleClick();
+        $$("#todo-list>li").findBy(cssClass("editing")).find(".edit")
+                .val(editedTask).pressEnter();
+    }
+
+    private void cancelEdit(String taskName, String text_canceled) {
+        $$("#todo-list>li").findBy(exactText(taskName)).doubleClick();
+        $$("#todo-list>li").findBy(cssClass("editing")).find(".edit")
+                .val(text_canceled).pressEscape();
     }
 
     private static void assertActiveTasks(String... texts) {
@@ -76,5 +82,9 @@ public class EndToEndTest {
 
     private void toggle(String taskName){
         tasks.findBy(exactText(taskName)).find(".toggle").click();
+    }
+
+    private void openTodoMvc() {
+        open("http://todomvc4tasj.herokuapp.com/");
     }
 }
