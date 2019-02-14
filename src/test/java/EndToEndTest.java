@@ -1,4 +1,7 @@
+import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.ElementsCollection;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +11,7 @@ import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Selenide.*;
 
 @DisplayName("Proof Of Concept - CRUD only")
-public class EndToEndTest {
+public class EndToEndTest extends BaseTest {
 
     private static final ElementsCollection tasks = $$("#todo-list>li");
 

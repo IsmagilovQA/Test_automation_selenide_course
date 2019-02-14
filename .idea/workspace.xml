@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa4d7f6-c5fe-4776-95f1-acefaa1792d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/EndToEndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EndToEndTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TodoMVC_POC.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,13 +26,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3607" />
+          <entry key="java" value="3679" />
           <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3607" />
+          <entry key="JAVA" value="3679" />
           <entry key="XML" value="18" />
         </counts>
       </usages-collector>
@@ -37,13 +41,13 @@
           <entry key="LICENSE" value="1" />
           <entry key="class" value="10" />
           <entry key="gitattributes" value="1" />
-          <entry key="java" value="7" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="8" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -51,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EndToEndTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+            <state relative-caret-position="420">
+              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2320#2321#0" expanded="true" />
@@ -64,6 +68,18 @@
                 <element signature="e#2481#2482#0" expanded="true" />
                 <element signature="e#2476#2477#0" expanded="true" />
                 <element signature="e#2534#2535#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,6 +122,7 @@
         <option value="$PROJECT_DIR$/src/test/java/TodoMVC_POC.java" />
         <option value="$PROJECT_DIR$/src/test/java/EndToEndtest.java" />
         <option value="$PROJECT_DIR$/src/test/java/EndToEndTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -174,7 +191,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550157990481" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550160297562" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
@@ -190,7 +207,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EndToEndTest.addItems">
+  <component name="RunManager" selected="JUnit.EndToEndTest">
+    <configuration name="EndToEndTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test_automation_selenide_course" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EndToEndTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EndToEndTest.addItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test_automation_selenide_course" />
       <option name="PACKAGE_NAME" value="" />
@@ -211,21 +236,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoMvcTest_withCSS.completesTask_Lesson2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EndToEndTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test_automation_selenide_course" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TodoMvcTest_withCSS" />
-      <option name="METHOD_NAME" value="completesTask_Lesson2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TodoMvcTest_withSelenide.completesTask_Lesson1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test_automation_selenide_course" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TodoMvcTest_withSelenide" />
-      <option name="METHOD_NAME" value="completesTask_Lesson1" />
+      <option name="MAIN_CLASS_NAME" value="EndToEndTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -242,19 +257,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TodoMvcTest_withSelenide.completesTask_Lesson1" />
-      <item itemvalue="JUnit.TodoMvcTest_withCSS.completesTask_Lesson2" />
       <item itemvalue="JUnit.TodoMvcTest_withXPath.completesTask_Lesson3" />
       <item itemvalue="JUnit.EndToEndTest.addItems" />
       <item itemvalue="JUnit.EndToEndTest.addItem" />
+      <item itemvalue="JUnit.EndToEndTest.test" />
+      <item itemvalue="JUnit.EndToEndTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EndToEndTest" />
+        <item itemvalue="JUnit.EndToEndTest.test" />
         <item itemvalue="JUnit.EndToEndTest.addItems" />
         <item itemvalue="JUnit.EndToEndTest.addItem" />
         <item itemvalue="JUnit.TodoMvcTest_withXPath.completesTask_Lesson3" />
-        <item itemvalue="JUnit.TodoMvcTest_withSelenide.completesTask_Lesson1" />
-        <item itemvalue="JUnit.TodoMvcTest_withCSS.completesTask_Lesson2" />
       </list>
     </recent_temporary>
   </component>
@@ -272,24 +287,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 20m 03s.xml">
-      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 20m 39s.xml">
-      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 21m 27s.xml">
-      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 22m 29s.xml">
-      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 23m 52s.xml">
-      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 25m 19s.xml">
-      <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 27m 37s.xml">
       <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
     </history-entry>
@@ -301,6 +298,24 @@
     </history-entry>
     <history-entry file="TodoMVC_POC_addItems - 2019.02.14 at 14h 53m 35s.xml">
       <configuration name="TodoMVC_POC.addItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EndToEndTest_test - 2019.02.14 at 17h 55m 18s.xml">
+      <configuration name="EndToEndTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EndToEndTest_test - 2019.02.14 at 17h 55m 54s.xml">
+      <configuration name="EndToEndTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EndToEndTest_test - 2019.02.14 at 17h 58m 04s.xml">
+      <configuration name="EndToEndTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EndToEndTest - 2019.02.14 at 17h 58m 31s.xml">
+      <configuration name="EndToEndTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EndToEndTest - 2019.02.14 at 17h 58m 45s.xml">
+      <configuration name="EndToEndTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EndToEndTest - 2019.02.14 at 17h 59m 24s.xml">
+      <configuration name="EndToEndTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -458,8 +473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EndToEndTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        <state relative-caret-position="420">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2320#2321#0" expanded="true" />
@@ -468,6 +483,16 @@
             <element signature="e#2481#2482#0" expanded="true" />
             <element signature="e#2476#2477#0" expanded="true" />
             <element signature="e#2534#2535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

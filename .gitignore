@@ -8,3 +8,4 @@ target/test-classes/TodoMvcTest_withSelenide.class
 .idea/workspace.xml
 .idea/workspace.xml
 *.xml
+.idea/workspace.xml
