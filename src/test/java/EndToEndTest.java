@@ -1,3 +1,4 @@
+import com.codeborne.selenide.ElementsCollection;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -8,6 +9,8 @@ import static com.codeborne.selenide.Selenide.*;
 
 @DisplayName("Proof Of Concept - CRUD only")
 public class EndToEndTest {
+
+    private static final ElementsCollection tasks = $$("#todo-list>li");
 
     /*
     End to End test:
@@ -25,9 +28,7 @@ public class EndToEndTest {
         open("http://todomvc4tasj.herokuapp.com/");
 
         // Add
-        $("#new-todo").val("a").pressEnter();
-        $("#new-todo").val("b").pressEnter();
-        $("#new-todo").val("c").pressEnter();
+        add("a", "b", "c");
         $$("#todo-list>li").shouldHave(exactTexts("a", "b", "c"));
 
         // Edit
@@ -48,5 +49,32 @@ public class EndToEndTest {
         // Delete
         $$("#todo-list>li").findBy(exactText("c")).hover().find(".destroy").click();
         $$("#todo-list>li").shouldHave(exactTexts("a"));
+    }
+
+
+
+    // String... it's the same as String[] (the method can take multple Strings as its argument)
+
+
+    private void add(String... taskName) {
+        for (String text : taskName) {
+            $("#new-todo").val(text).pressEnter();
+        }
+    }
+
+    private static void assertActiveTasks(String... texts) {
+        tasks.filterBy(cssClass("active")).shouldHave(exactTexts(texts));
+    }
+
+    private static void assertCompletedTasks(String... texts) {
+        tasks.filterBy(cssClass("completed")).shouldHave(exactTexts(texts));
+    }
+
+    public void clearCompleted() {
+        $("#clear-completed").click();
+    }
+
+    private void toggle(String taskName){
+        tasks.findBy(exactText(taskName)).find(".toggle").click();
     }
 }
